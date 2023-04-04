@@ -1,0 +1,31 @@
+bg {
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+    background-size: 250px 250px    ;
+    background-color: white;
+    float: right;
+    width: 100%;
+    min-height: 1080px;
+    max-height: auto;
+}
+
+.centerItems {
+    margin: auto;       
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    color: black;
+    font-size: 28px;
+    opacity: 0.85;
+}
+.centerButtons {
+    text-align: center;
+    border: 7px solid red;
+    width: 25px;
+    height: 25px;
+    padding-top: 100px;
+}
+
+#buttonSizeNormal {
+    font-size: 25px;
+}

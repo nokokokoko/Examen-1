@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="css/background.css">
+    <style></style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <!--Background de prueba-->
+    <bg>
+        <!--Barra de navegacion generica para todas las paginas -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid" style="opacity:0.85">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="Main.html">Mis Flores</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Log_in.html">Log in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Sector_Compras.html">Compras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pagina_Usuario.html">Mi cuenta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pagina_admin.html">Pagina Administrador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Nosotros.html">Nosotros (Informacion de la comunidad)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Seguimiento_Compras.html">Seguimiento de compras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Suscripcion.html">Suscripcion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Texto principal de la pagina donde se muestran datos basicos-->
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" style="opacity:0.85">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+                <h1 class="display-4 font-weight-normal">Mis flores</h1>
+                <p class="lead font-weight-normal">Algo bastante simple</p>
+                <a class="btn btn-outline-secondary" href="#">Registrarse</a>
+            </div>
+        </div>
+        <!-- Carrusel el cual contiene informacion de animales, por ahora en formato de video Webm-->
+        <div id="carouselExample" class="carousel slide" align="center">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <video id="video1" autoplay controls style="width:50%" height="400" preload="auto">
+                        <source src="resources/1679509343881868.webm" class="d-block" type="video/webm">
+                    </video>
+                </div>
+                <div class="carousel-item">
+                    <video id="video1" autoplay controls style="width:50%" height="400" preload="auto">
+                        <source src="resources/1679530016011723.webm" class="d-block" type="video/webm">
+                    </video>
+                </div>
+                <div class="carousel-item">
+                    <video id="video1" autoplay controls style="width:50%" height="400" preload="auto">
+                        <source src="resources/1679132064606242.webm" class="d-block" type="video/webm">
+                    </video>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </bg>
+    <!--Pie de pagina, donde se muesta la ultima actualizacion de la pagina-->
+    <footer class="mastfoot mt-auto">
+        <div class="inner">
+            <p>Fecha de update: 03-04-2023</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
